@@ -1,29 +1,29 @@
 package com.github.javapedia.strings;
 
-public class Excercises {
+public class StringExcercises {
 
     public static void main(String[] args) {
 
         String parameters = "param1:param2_param3:param4_param5:param6_param7:param8";
-        System.out.println(new Excercises().excercise1("John"));
-        System.out.println(new Excercises().excercise2("Lord of the Rings", 3));
-        System.out.println(new Excercises().excercise2("Lord of the Rings", 3, 6));
-        System.out.println(new Excercises().excercise3("PołowaiPOLOWA"));
-        System.out.println(new Excercises().excercise3("PołowaPOLOWA"));
-        System.out.println(new Excercises().excercise4("first blood"));
-        System.out.println(new Excercises().excercise4("last blood"));
-        System.out.println(new Excercises().excercise4("start blood"));
-        System.out.println(new Excercises().excercise5("Bartosz Rachwalik"));
-        System.out.println(new Excercises().excercise6("Student SDA"));
-        System.out.println(new Excercises().excercise6("Student -SDA"));
-        System.out.println(new Excercises().excercise6("Student"));
-        System.out.println(new Excercises().excercise7("abcde"));
-        System.out.println(new Excercises().excercise8("sghoha"));
-        System.out.println(new Excercises().excercise8("arra.b"));
-        System.out.println(new Excercises().excercise9("120:0098:09:124", ":"));
-        System.out.println(new Excercises().excercise9("bartosz,rachwalik,java,", ","));
-        System.out.println(new Excercises().excercise10(parameters));
-        System.out.println(new Excercises().excercise11("Today is a good day", "&&&"));
+        System.out.println(new StringExcercises().excercise1("John"));
+        System.out.println(new StringExcercises().excercise2("Lord of the Rings", 3));
+        System.out.println(new StringExcercises().excercise2("Lord of the Rings", 3, 6));
+        System.out.println(new StringExcercises().excercise3("PołowaiPOLOWA"));
+        System.out.println(new StringExcercises().excercise3("PołowaPOLOWA"));
+        System.out.println(new StringExcercises().excercise4("first blood"));
+        System.out.println(new StringExcercises().excercise4("last blood"));
+        System.out.println(new StringExcercises().excercise4("start blood"));
+        System.out.println(new StringExcercises().excercise5("Bartosz Rachwalik"));
+        System.out.println(new StringExcercises().excercise6("Student SDA"));
+        System.out.println(new StringExcercises().excercise6("Student -SDA"));
+        System.out.println(new StringExcercises().excercise6("Student"));
+        System.out.println(new StringExcercises().excercise7("abcde"));
+        System.out.println(new StringExcercises().excercise8("sghoha"));
+        System.out.println(new StringExcercises().excercise8("arra.b"));
+        System.out.println(new StringExcercises().excercise9("120:0098:09:124", ":"));
+        System.out.println(new StringExcercises().excercise9("bartosz,rachwalik,java,", ","));
+        System.out.println(new StringExcercises().excercise10(parameters));
+        System.out.println(new StringExcercises().excercise11("Today is a good day", "&&&"));
     }
 
     public String excercise1(String name) {
